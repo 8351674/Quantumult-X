@@ -1,5 +1,5 @@
 /** 
-☑️ 资源解析器 © ⟦2026-02-02 22:49⟧
+☑️ 资源解析器 ⟦2026-02-02 22:49⟧
 */
 let [link0, content0, subinfo] = [$resource.link, $resource.content, $resource.info]
 let version = typeof $environment != "undefined" ? Number($environment.version.split("build")[1]): 0 // 版本号
